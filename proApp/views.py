@@ -24,4 +24,13 @@ def gadg(request):
 		'pro3' : 'c',
 	}
 	return render(request,"proApp/products.html",context = gadg)
+
+def tablet (request):
+	dadg = {
+		'pro1' : 'a',
+		'pro2' : 'b',
+		'pro3' : 'c',
+	}
+	return render(request,"proApp/products.html",context = tablet)
+				
 				
